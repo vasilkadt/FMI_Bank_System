@@ -10,8 +10,6 @@ private:
 	char* id;
 	char* name;
 	char* address;
-	//Account** accounts;
-	//int counterAccount;
 
 public:
 	Customer();
@@ -27,8 +25,6 @@ public:
 	const char* getId() const;
 	const char* getName() const;
 	const char* getAddress() const;
-
-	//void addAccount(const Account& account);
 
 private:
 	void copy(const Customer& other);
